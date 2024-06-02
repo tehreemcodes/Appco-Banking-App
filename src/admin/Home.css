@@ -1,0 +1,64 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90vh;
+  background-color: #f4feff;
+}
+
+.css-1sra7t5-MuiTypography-root{
+  color: #2b044d;
+  font-size: 65px !important;
+    font-weight: 700 !important;
+    line-height: 1.3;
+    margin-bottom: 22px !important;
+}
+
+.css-2ulfj5-MuiTypography-root{
+  color: #707b8e;
+  font-size: 20px !important;
+  line-height: 30px;
+  margin-bottom: 15px !important;
+  font-weight: normal !important;
+}
+.home__left {
+  /* height: 40%; */  
+  flex: 0.5;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 50px;
+}
+.home__right {
+  flex: 0.5;
+  /* background-color: blue; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home__buttons {
+  /* background-color: blue; */
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-right: 310px;
+}
+.home__button1 {
+  /* margin-right: 5px;  */
+}
+
+.home__image {
+}
+.home__image img {
+  max-height: 580px;
+
+}
+
+.home__button1 span {
+  margin-left: 10px;
+}

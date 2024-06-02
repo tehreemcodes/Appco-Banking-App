@@ -1,0 +1,36 @@
+.appbar__right {
+  display: flex;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+header{
+  background-color: #F4FEFF !important;
+  text-transform: uppercase;
+}
+.appbar__rightChild {
+  padding-right: 40px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #450b78 !important;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.logo img{
+  margin-top:20px;
+  margin-bottom: 20px;
+ margin-left:50px;
+}
+
+.logo {
+  flexgrow: 1;
+  cursor: pointer;
+}
+.app_items {
+  display: flex;
+  justify-content: space-between;
+}
